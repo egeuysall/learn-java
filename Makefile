@@ -1,0 +1,31 @@
+.PHONY: hello variables all clean input cast format loops
+
+hello:
+	javac introduction/HelloWorld.java && java introduction.HelloWorld
+
+variables:
+	javac introduction/Variables.java && java introduction.Variables
+
+all:
+	javac introduction/*.java
+
+clean:
+	rm -f introduction/*.class conditionals/*.class loops/*.class
+
+input:
+	javac introduction/UserInput.java && java introduction.UserInput
+
+calc:
+	javac introduction/Math.java && java introduction.Math
+
+cast:
+	javac introduction/Casting.java && java introduction.Casting
+
+format:
+	javac introduction/FormattedOutput.java && java introduction.FormattedOutput
+
+condition:
+	javac conditionals/Conditionals.java && java conditionals.Conditionals
+
+loops:
+	javac loops/Loops.java && java loops.Loops
