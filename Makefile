@@ -29,3 +29,6 @@ condition:
 
 loops:
 	javac loops/Loops.java && java loops.Loops
+
+nested:
+	javac loops/Nested.java && java loops.Nested
