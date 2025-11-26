@@ -1,4 +1,4 @@
-.PHONY: hello variables all clean input cast format loops
+.PHONY: hello variables all clean input cast format loops nested methods
 
 hello:
 	javac introduction/HelloWorld.java && java introduction.HelloWorld
@@ -10,7 +10,7 @@ all:
 	javac introduction/*.java
 
 clean:
-	rm -f introduction/*.class conditionals/*.class loops/*.class
+	rm -f introduction/*.class conditionals/*.class loops/*.class methods/*.class
 
 input:
 	javac introduction/UserInput.java && java introduction.UserInput
@@ -32,3 +32,6 @@ loops:
 
 nested:
 	javac loops/Nested.java && java loops.Nested
+
+nested:
+	javac methods/Methods.java && java methods.Methods
