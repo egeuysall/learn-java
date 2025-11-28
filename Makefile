@@ -1,4 +1,4 @@
-.PHONY: hello variables clean input cast format loops nested methods arrays
+.PHONY: hello variables clean input cast format loops nested methods arrays grid nums
 
 hello:
 	javac introduction/HelloWorld.java && java introduction.HelloWorld
@@ -35,3 +35,9 @@ methods:
 
 arrays:
 	javac arrays/Arrays.java && java arrays.Arrays
+
+grid:
+	javac arrays/Grid.java && java arrays.Grid
+
+nums:
+	javac problems/Nums.java && java problems.Nums
