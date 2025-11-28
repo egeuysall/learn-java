@@ -43,4 +43,4 @@ nums:
 	javac problems/Nums.java && java problems.Nums
 
 project:
-	javac project/Workouts.java && java Workouts.Nums
+	javac project/Workouts.java && java project.Workouts
