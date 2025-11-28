@@ -35,5 +35,9 @@ public class Grid {
       }
       System.out.println();
     }
+
+    // TASK 2: Practice 2d arrays
+
+    // TASK 3: Build a feature and a matrix
   }
 }
