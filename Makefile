@@ -1,4 +1,4 @@
-.PHONY: hello variables clean input cast format loops nested methods arrays grid nums
+.PHONY: hello variables clean input calc cast format condition loops nested methods arrays grid nums project
 
 hello:
 	javac introduction/HelloWorld.java && java introduction.HelloWorld
@@ -7,7 +7,7 @@ variables:
 	javac introduction/Variables.java && java introduction.Variables
 
 clean:
-	rm -f introduction/*.class conditionals/*.class loops/*.class methods/*.class arrays/*.class
+	rm -f introduction/*.class conditionals/*.class loops/*.class methods/*.class arrays/*.class problems/*.class project/*.class
 
 input:
 	javac introduction/UserInput.java && java introduction.UserInput
@@ -41,3 +41,6 @@ grid:
 
 nums:
 	javac problems/Nums.java && java problems.Nums
+
+project:
+	javac project/Workouts.java && java Workouts.Nums
