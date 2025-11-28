@@ -1,4 +1,4 @@
-.PHONY: hello variables clean input calc cast format condition loops nested methods arrays grid nums project
+.PHONY: hello variables clean input calc cast format condition loops nested methods arrays grid nums project dimension
 
 hello:
 	javac introduction/HelloWorld.java && java introduction.HelloWorld
@@ -44,3 +44,6 @@ nums:
 
 project:
 	javac project/Workouts.java && java project.Workouts
+
+ds:
+	javac arrays/Dimensions.java && java arrays.Dimensions
