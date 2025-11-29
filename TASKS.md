@@ -7,4 +7,3 @@
 
 - [ ] Solve practice problems to fully learn the concepts
 - [ ] Develop a couple of projects before the exam to ensure passing
-i
