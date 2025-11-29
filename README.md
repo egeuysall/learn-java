@@ -29,6 +29,16 @@ A structured collection of Java programs covering fundamental programming concep
 ### Arrays
 
 - **Arrays** - Array creation, manipulation, and iteration
+- **Dimensions** - Multi-dimensional arrays
+- **Grid** - Working with 2D arrays and grids
+
+### Problems
+
+- **Nums** - Practice problems and exercises
+
+### Projects
+
+- **Workouts** - Workout tracking application
 
 ## Quick Start
 
@@ -62,6 +72,14 @@ make methods        # Method examples
 
 # Arrays
 make arrays         # Array examples
+make ds             # Multi-dimensional arrays
+make grid           # 2D array grids
+
+# Problems
+make nums           # Practice problems
+
+# Projects
+make project        # Workout tracking app
 ```
 
 ### Cleaning Up
@@ -81,6 +99,8 @@ Recommended order for beginners:
 3. Practice `loops/` - Master iteration
 4. Explore `methods/` - Write reusable code
 5. Work with `arrays/` - Handle collections of data
+6. Try `problems/` - Apply what you've learned
+7. Build `projects/` - Create complete applications
 
 ## Development
 
